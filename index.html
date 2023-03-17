@@ -4,11 +4,12 @@
 	<title>Random Meme Generator</title>
 </head>
 <body>
-    <div style="  margin: auto;
+    <div style="  
+    margin: auto;
     width: 50%;
-    border: 3px solid green;
-    padding: 10px;">
-        <img id="meme-image" alt="Random meme" style="width: 500px; height: 500px;">
+    padding: 10px;
+    padding-top: 150px;">
+        <img id="meme-image" alt="Random meme" style="width: 600px; height: 600px;">
         <script>
             // Fetch a random meme image from the API
             fetch("https://api.imgflip.com/get_memes")
@@ -24,10 +25,10 @@
             })
             .catch(error => console.error(error));
             </script>
+            <h1>Ye to Meme Nikla Try another QR Code :)</h1>
             </div>
 </body>
 </html>
-<!-- This code fetches a random meme image from the API, then sets the "src" attribute of an HTML image element to the URL of the image. It also sets the "alt" attribute of the image to the title of the meme, which is returned by the API. You can customize the appearance and layout of the image on your website using CSS. -->
 
 
 
